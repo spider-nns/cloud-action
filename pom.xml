@@ -24,6 +24,9 @@
         <spring-boot.version>2.0.5.RELEASE</spring-boot.version>
         <net-devh-grpc.version>2.0.1.RELEASE</net-devh-grpc.version>
         <junit.version>4.13.2</junit.version>
+
+        <mySQL.version>8.0.25</mySQL.version>
+        <jGit.version>5.11.1.202105131744-r</jGit.version>
     </properties>
 
     <dependencyManagement>
@@ -58,6 +61,17 @@
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <!--configure for test-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mySQL.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jgit</groupId>
+                <artifactId>org.eclipse.jgit</artifactId>
+                <version>${jGit.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
