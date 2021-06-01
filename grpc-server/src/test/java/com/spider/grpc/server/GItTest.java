@@ -13,7 +13,7 @@ import java.util.Set;
 public class GItTest {
 
     String username = "spider.nns";
-    String password = "";
+    String password = "Spider@nns@2021";
 
     @Test
     public void testGitCredit() throws GitAPIException {
