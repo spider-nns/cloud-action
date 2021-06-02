@@ -13,6 +13,7 @@
         <module>grpc-lib</module>
         <module>grpc-server</module>
         <module>grpc-client</module>
+        <module>mp</module>
     </modules>
 
     <properties>
